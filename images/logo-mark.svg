@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" width="88" height="88">
+  <rect width="88" height="88" rx="16" fill="#151414"/>
+  <rect x="3" y="3" width="82" height="82" rx="13" fill="none" stroke="#DE0000" stroke-width="3"/>
+  <text x="44" y="57" text-anchor="middle" fill="#FFFFFF" font-family="'Barlow Condensed', Impact, sans-serif" font-weight="800" font-style="italic" font-size="48" letter-spacing="1">M</text>
+  <rect x="20" y="66" width="48" height="4" rx="2" fill="#DE0000"/>
+</svg>

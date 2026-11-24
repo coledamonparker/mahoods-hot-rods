@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>01. Collision Repair | Mahood&#x27;s Collision &amp; Hot Rods</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Utility Bar -->
+  <div class="utility-bar">
+    <div class="container utility-inner">
+      <div class="utility-left">
+        <span class="pill-badge">ANAHEIM, CA • EST. 1980</span>
+        <span class="utility-address">1270 N. Lance Ln., Anaheim, CA 92806</span>
+      </div>
+      <div class="utility-right">
+        <span class="utility-hours">Mon–Fri: 8 AM – 5 PM • Sat: 8 AM – 2 PM</span>
+        <a href="tel:7145758940" class="utility-phone">(714) 575-8940</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Header -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Mahood&#x27;s Collision &amp; Hot Rods Home">
+        <img src="images/logo-mark.svg" alt="Mahood&#x27;s Collision &amp; Hot Rods Logo" class="brand-logo-img" />
+        <span class="brand-wordmark"><strong>MAHOOD'S</strong> COLLISION &amp; HOT RODS</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="index.html#gallery">Photos</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        
+        <a href="tel:7145758940" class="btn btn-ghost"><span>(714) 575-8940</span></a>
+        <a href="open-order.html" class="btn btn-primary">Request Estimate</a>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-drawer" id="mobileDrawer" hidden>
+      <div class="container mobile-drawer-inner">
+        <nav class="mobile-nav" aria-label="Mobile Navigation">
+          <a href="index.html#services" class="mobile-link">Services</a>
+          <a href="index.html#about" class="mobile-link">About</a>
+          <a href="index.html#reviews" class="mobile-link">Reviews</a>
+          <a href="index.html#gallery" class="mobile-link">Photos</a>
+          <a href="index.html#contact" class="mobile-link">Contact</a>
+        </nav>
+        <div class="mobile-drawer-cta">
+          <a href="open-order.html" class="btn btn-primary btn-block mobile-link">Request Estimate</a>
+          <a href="tel:7145758940" class="btn btn-outline btn-block">Call (714) 575-8940</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="simple-service-page">
+    <div class="container narrow-container">
+      <div class="simple-service-topbar">
+        <a href="index.html#services" class="service-link">&larr; All Services</a>
+        <select aria-label="Switch Service" onchange="if(this.value) window.location.href=this.value;" style="padding:0.5rem 0.85rem;border-radius:8px;border:1px solid var(--brand-border);font-weight:600;">
+            <option value="collision-repair.html" selected>01 — Collision Repair</option>
+            <option value="dent-repair.html" >02 — Dent &amp; Fender Repair</option>
+            <option value="classic-restoration.html" >03 — Classic Car &amp; Porsche Restoration</option>
+            <option value="custom-paint.html" >04 — Custom &amp; Factory Auto Paint</option>
+        </select>
+      </div>
+      <article class="simple-service-card">
+        <span class="service-num-badge">SERVICE 01</span>
+        <h1 style="font-size:clamp(1.85rem,3.5vw,2.45rem);font-weight:800;margin:0.85rem 0 0.65rem;">Collision Repair</h1>
+        <p style="font-size:1.15rem;font-weight:600;color:var(--brand-primary);margin-bottom:0.85rem;">Insurance-approved collision and auto body repair for all makes and models. Bring your vehicle to Mahood&#x27;s first — we handle insurance adjusters directly and help with deductibles.</p>
+        <p style="color:var(--brand-muted);">Insurance-approved collision and auto body repair for all makes and models. Bring your vehicle to Mahood&amp;#x27;s first — we handle insurance adjusters directly and help with deductibles.</p>
+        <div class="simple-essentials-box">
+          <h2 style="font-size:0.9rem;font-weight:800;text-transform:uppercase;letter-spacing:0.06em;">What You Need to Get Started</h2>
+          <ul class="simple-essentials-list">
+          <li>Vehicle Year, Make &amp; Model</li>
+          <li>Damaged Area Description</li>
+          <li>Insurance Claim or Out-of-Pocket</li>
+          <li>Preferred Estimate Day (Mon–Sat)</li>
+          </ul>
+        </div>
+        <a href="open-order.html?type=collision-repair" class="btn btn-primary btn-lg">Open a Collision Repair Order &rarr;</a>
+      </article>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="index.html" class="brand-logo brand-logo-footer">
+          <img src="images/logo-mark.svg" alt="Mahood&#x27;s Collision &amp; Hot Rods Logo" class="brand-logo-img" />
+          <span class="brand-wordmark"><strong>MAHOOD'S</strong> COLLISION &amp; HOT RODS</span>
+        </a>
+        <p style="margin-top:0.4rem;color:var(--brand-accent);font-weight:700;font-size:0.78rem;letter-spacing:0.08em;text-transform:uppercase;">COLLISION REPAIR • DENT REPAIR • CLASSIC RESTORATION • CUSTOM PAINT</p>
+        <p style="margin-top:0.25rem;">1270 N. Lance Ln., Anaheim, CA 92806 &bull; <a href="tel:7145758940" style="color:#fff;font-weight:700;">(714) 575-8940</a></p>
+      </div>
+      <div>
+        <p>© 2026 Mahood&#x27;s Collision &amp; Auto Body Center. Serving Anaheim &amp; Orange County Since 1980.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Bottom Action Bar -->
+  <div class="mobile-action-bar" aria-label="Quick Mobile Actions">
+    <a href="tel:7145758940" class="mobile-action-btn mobile-action-call"><span>Call Now</span></a>
+    <a href="open-order.html" class="mobile-action-btn mobile-action-primary"><span>Request Estimate</span></a>
+  </div>
+
+  <script>
+    window.SITE_CONFIG = {"businessName": "Mahood's Collision & Hot Rods", "recipientEmail": "Mark@mahoods.com", "phone": "(714) 575-8940", "orderSchemas": {"collision-repair": {"code": "01", "title": "Collision Repair", "helper": "Insurance-approved collision and auto body repair for all makes and models. Bring your vehicle to Mahood's first \u2014 we handle insurance adjusters directly and help with deductibles.", "fields": [{"name": "Vehicle_Year_Make_Model", "label": "Vehicle (Year, Make, Model)", "required": true, "placeholder": "e.g. 2023 Toyota 4Runner / 2022 Honda Civic"}, {"name": "Payment_Type", "label": "Insurance or Out-of-Pocket?", "type": "select", "options": ["Need Estimate First (Before Calling Insurance)", "Active Insurance Claim", "Out-of-Pocket / Direct Pay"]}, {"name": "Damaged_Areas", "label": "What Needs Repair?", "required": true, "placeholder": "e.g. Front bumper, fender, or rear quarter panel"}]}, "dent-repair": {"code": "02", "title": "Dent & Fender Repair", "helper": "Fast, seamless removal of door dings, creased panels, bumper scuffs, and fender damage with precision factory color matching.", "fields": [{"name": "Vehicle_Year_Make_Model", "label": "Vehicle (Year, Make, Model)", "required": true, "placeholder": "e.g. 2022 Chevy Silverado / BMW 330i"}, {"name": "Dent_Location", "label": "Panel Location & Damage Details", "required": true, "placeholder": "e.g. Driver door crease / rear bumper scrape"}, {"name": "Preferred_Date", "label": "Preferred Estimate Date", "type": "date"}]}, "classic-restoration": {"code": "03", "title": "Classic Car & Porsche Restoration", "helper": "Complete metal straightening, rust repair, panel fitment, and body restoration for classic muscle cars, hot rods, and vintage Porsches.", "fields": [{"name": "Classic_Vehicle", "label": "Classic Vehicle (Year, Make, Model)", "required": true, "placeholder": "e.g. 1955 Chevy Bel Air / 1973 Porsche 911"}, {"name": "Current_Condition", "label": "Current Body Condition", "type": "select", "options": ["Complete Running Car", "Partially Stripped / In Primer", "Bare Metal Shell", "Needs Rust & Panel Fabrication"]}, {"name": "Restoration_Goals", "label": "Project Goals", "required": true, "placeholder": "Tell us what bodywork or restoration your classic needs..."}]}, "custom-paint": {"code": "04", "title": "Custom & Factory Auto Paint", "helper": "From computerized factory color matching to AMBR award-winning show paint, multi-stage clear coat, wet sanding, and mirror buffing.", "fields": [{"name": "Vehicle_Year_Make_Model", "label": "Vehicle (Year, Make, Model)", "required": true, "placeholder": "e.g. 1968 Dodge Charger / 1969 Camaro"}, {"name": "Paint_Scope", "label": "Paint Scope", "type": "select", "options": ["Full Exterior Repaint", "Show-Car Custom Paint & Color Sanding", "Single Panel / Bumper Factory Color Match"]}, {"name": "Desired_Color", "label": "Desired Color / Finish", "required": true, "placeholder": "e.g. Gloss Black, Signal Orange, or Factory Match"}]}}};
+  </script>
+  <script src="site-widgets.js"></script>
+</body>
+</html>
