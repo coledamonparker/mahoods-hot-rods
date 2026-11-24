@@ -1,0 +1,213 @@
+{
+  "archetype": "brick-and-mortar",
+  "theme": {
+    "fontPreset": "industrial",
+    "primaryColor": "#DE0000",
+    "primaryHover": "#940000",
+    "primarySoft": "#FEECEB",
+    "accentColor": "#FFCB05",
+    "darkColor": "#151414",
+    "surfaceDark": "#111010"
+  },
+  "business": {
+    "name": "Mahood's Hot Rods & Collision Center",
+    "wordmarkHtml": "<strong>MAHOOD'S</strong> HOT RODS &amp; COLLISION",
+    "logo": "images/logo-badge.jpg",
+    "tagline": "HOT ROD, CLASSIC PORSCHE & COLLISION PAINT SPECIALISTS SINCE 1980",
+    "topBadge": "ANAHEIM, CA • EST. 1980",
+    "address": "1270 N. Lance Ln., Anaheim, CA 92806 (Off Kraemer & 91 Fwy)",
+    "phone": "(714) 575-8940",
+    "hoursSummary": "Mon–Fri: 8:00 AM – 5:00 PM • Sat: 8:00 AM – 2:00 PM",
+    "recipientEmail": "Mark@mahoods.com",
+    "primaryCtaLabel": "Request Estimate",
+    "seoSubtitle": "Anaheim, CA — Hot Rods, Classic Porsche Restoration & Collision Center",
+    "metaDescription": "Mahood's Hot Rods & Collision Center in Anaheim, CA (1270 N. Lance Ln.). Family-owned since 1980 by Mark & Jake Mahood. AMBR award-winning hot rod paint, classic Porsche restoration, and insurance-approved collision repair.",
+    "googleMapsUrl": "https://www.google.com/maps/place/Mahoods+Collision+and+Auto+Body+Center./@33.8550954,-117.8727581,15z",
+    "legalNote": "© 2026 Mahood's Collision & Auto Body Center / Mahood's Hot Rods. Serving Anaheim & Orange County Since 1980."
+  },
+  "hero": {
+    "headline": "SHOW-WINNING HOT RODS, CLASSIC PORSCHES &",
+    "highlight": "COLLISION REPAIR",
+    "subtitle": "Family-owned and operated in Anaheim since 1980 by father-and-son team Mark and Jake Mahood. From AMBR-winning street rods and concourse Porsche restorations to insurance-approved daily driver collision repair.",
+    "image": "images/blue-55-chevy.jpg",
+    "isSignShowcase": false,
+    "captionLeft": "1270 N. Lance Ln., Anaheim, CA",
+    "captionRight": "AMBR Award-Winning Custom Paint"
+  },
+  "metrics": [
+    { "value": "Since 1980", "label": "45+ Years in Anaheim, CA" },
+    { "value": "AMBR Winner", "label": "America's Most Beautiful Roadster Paint" },
+    { "value": "All Insurances", "label": "Approved Collision & Deductible Assistance" },
+    { "value": "Porsche & Classics", "label": "Bare-Metal Restoration & Color Matching" }
+  ],
+  "servicesEyebrow": "CRAFTSMANSHIP & CAPABILITIES",
+  "servicesTitle": "CUSTOM PAINT, RESTORATION & COLLISION SERVICES",
+  "servicesSubtitle": "Click any specialty below to view what you need for an estimate or book a shop consultation online.",
+  "services": [
+    {
+      "code": "01",
+      "slug": "hot-rods-custom-paint",
+      "title": "Hot Rods, Muscle Cars & Show Paint",
+      "summary": "Show-stopping custom paint, metal straightening, gap alignment, and color-sanding by AMBR winner Mark Mahood — trusted by legends like Boyd Coddington, Chip Foose, and Fat Jack.",
+      "hasDetailPage": true,
+      "essentials": [
+        "Vehicle Year, Make & Model (e.g. 1932 Ford / 1969 Camaro)",
+        "Current Body Condition (Bare Metal, Primer, or Existing Paint)",
+        "Desired Paint Style (Concourse Single-Stage, Two-Stage, Custom Color)",
+        "Target Show Deadline or Build Timeline"
+      ],
+      "orderFields": [
+        { "name": "Vehicle_Year_Make_Model", "label": "Hot Rod / Classic Vehicle (Year, Make, Model)", "required": true, "placeholder": "e.g. 1955 Chevy Bel Air / 1968 Dodge Charger" },
+        { "name": "Current_Body_Condition", "label": "Current Body & Paint Condition", "type": "select", "options": ["Running & Painted — Needs Full Repaint", "In Primer / Bodywork Partially Done", "Bare Metal Shell on Rotisserie/Roller", "Needs Rust Repair & Panel Replacement"] },
+        { "name": "Paint_Goal", "label": "Target Finish & Color Vision", "required": true, "placeholder": "e.g. Show-quality black mirror finish, custom candy, or factory color" },
+        { "name": "Target_Consultation_Date", "label": "Preferred Shop Inspection Date", "type": "date" }
+      ]
+    },
+    {
+      "code": "02",
+      "slug": "classic-porsche-restoration",
+      "title": "Classic Porsche Restoration & Paint",
+      "summary": "Expert bare-metal bodywork, rust repair, panel fitment, and factory-correct Glasurit/PPG color matching for vintage Porsche 356, 911, 912, and 914 models.",
+      "hasDetailPage": true,
+      "essentials": [
+        "Porsche Model & Year (e.g. 1973 Porsche 911T / 914)",
+        "Factory Paint Code (if known)",
+        "Scope: Full Rotisserie Shell Paint vs. Panel/Rust Restoration",
+        "Photos or In-Shop Inspection Availability"
+      ],
+      "orderFields": [
+        { "name": "Porsche_Year_and_Model", "label": "Porsche Year & Model", "required": true, "placeholder": "e.g. 1971 Porsche 911E / 1974 Porsche 914" },
+        { "name": "Restoration_Scope", "label": "Restoration Scope", "type": "select", "options": ["Complete Bare-Metal Shell Paint & Body", "Rust Repair & Pan/Fender Restoration", "Factory Color Repaint / Refresh", "Collision / Panel Damage Repair"] },
+        { "name": "Factory_Color_Code", "label": "Original / Desired Porsche Color", "placeholder": "e.g. Signal Orange, Bahama Yellow, Guards Red" },
+        { "name": "Target_Consultation_Date", "label": "Preferred Drop-Off / Estimate Date", "type": "date" }
+      ]
+    },
+    {
+      "code": "03",
+      "slug": "collision-auto-body",
+      "title": "Insurance-Approved Collision & Auto Body",
+      "summary": "Complete collision repair for all daily-driver makes and models. Bring your vehicle to Mahood's before calling insurance — we negotiate directly with adjusters and offer deductible assistance.",
+      "hasDetailPage": true,
+      "essentials": [
+        "Vehicle Year, Make & Model",
+        "Insurance Carrier & Claim Number (or Out-of-Pocket)",
+        "Is the Vehicle Drivable or Needs Towing?",
+        "Preferred Walk-In Estimate Day (Mon–Sat)"
+      ],
+      "orderFields": [
+        { "name": "Vehicle_Year_Make_Model", "label": "Vehicle (Year, Make, Model)", "required": true, "placeholder": "e.g. 2023 Toyota 4Runner / 2022 Chevy Silverado" },
+        { "name": "Pay_or_Insurance", "label": "Insurance Claim or Out-of-Pocket?", "type": "select", "options": ["Need Estimate First (Before Calling Insurance)", "Active Insurance Claim Filed", "Out-of-Pocket / Direct Pay", "Need Towing + Rental Car Assistance"] },
+        { "name": "Insurance_Carrier", "label": "Insurance Company (if applicable)", "placeholder": "e.g. AAA, State Farm, Farmers, Geico" },
+        { "name": "Damage_Description", "label": "Damaged Areas", "required": true, "placeholder": "e.g. Front bumper, hood, and driver fender" }
+      ]
+    },
+    {
+      "code": "04",
+      "slug": "color-match-dent-repair",
+      "title": "Precision Color Matching & Dent Repair",
+      "summary": "Computerized and hand-tinted color matching, bumper and fender restoration, clear-coat renewal, and multi-stage wet sanding & buffing."
+    }
+  ],
+  "beforeAfter": [
+    {
+      "title": "Classic Porsche Bare-Shell Prep to Booth Finish",
+      "description": "Drag the slider to compare in-shop block sanding & masking against the deep gloss booth paint finish.",
+      "beforeImage": "images/porsche-prep-before.jpg",
+      "afterImage": "images/porsche-orange-booth.jpg",
+      "beforeLabel": "Block Sanding & Masking (Prep)",
+      "afterLabel": "High-Gloss Booth Finish (Painted)"
+    },
+    {
+      "title": "Classic Cabriolet Metalwork to Show-Ready Muscle",
+      "description": "From hand-blocked primer and panel alignment in our Anaheim bays to a mirror-polished show finish.",
+      "beforeImage": "images/black-56-wagon.jpg",
+      "afterImage": "images/red-camaro-convertible.jpg",
+      "beforeLabel": "Primer & Panel Blocking (In Progress)",
+      "afterLabel": "Mirror Show Paint (Completed)"
+    }
+  ],
+  "productsEyebrow": "SHOP & ESTIMATES",
+  "productsTitle": "MAHOOD'S MERCH & ESTIMATE PACKAGES",
+  "productsSubtitle": "Order official Mahood's Hot Rods apparel or book a priority restoration consultation.",
+  "products": [
+    {
+      "id": "mahoods-shirt",
+      "name": "Official Mahood's Skull & Clover Logo T-Shirt",
+      "price": 30.00,
+      "badge": "Shop Merch",
+      "image": "images/logo-skull.jpg",
+      "description": "Heavyweight black shop tee featuring the iconic Mahood's Hot Rods & Muscle Cars skull and four-leaf clover graphic.",
+      "features": ["100% Preshrunk Cotton", "Front & Back Screenprint", "Available in S, M, L, XL, 2XL"],
+      "ctaLabel": "Order Shirt ($30)"
+    },
+    {
+      "id": "paint-consult",
+      "name": "In-Shop Hot Rod / Classic Restoration Evaluation",
+      "price": 0.00,
+      "badge": "Free Estimate",
+      "image": "images/black-camaro.jpg",
+      "description": "Bring your classic car, Porsche, or collision vehicle to 1270 N. Lance Ln. for a comprehensive paint & body evaluation with Mark & Jake Mahood.",
+      "features": ["Detailed Paint & Bodywork Breakdown", "Insurance Deductible Assistance Review", "Towing & Enterprise Rental Coordination"],
+      "ctaLabel": "Reserve Free Evaluation ($0)"
+    }
+  ],
+  "about": {
+    "eyebrow": "FAMILY OWNED SINCE 1980",
+    "headline": "Mark & Jake Mahood — Two Generations of Anaheim Craftsmanship",
+    "image": "images/mark-and-jake.jpg",
+    "personName": "Mark & Jake Mahood",
+    "personTitle": "Father & Son Team • Anaheim, CA",
+    "paragraphs": [
+      "Founded by Mark Mahood in 1980 right out of school, Mahood's Collision & Hot Rods has spent more than four decades painting some of the finest street rods, classic Porsches, and muscle cars in the United States.",
+      "Mark has painted hundreds of show winners — earning the prestigious AMBR (America's Most Beautiful Roadster) Award and collaborating with icons including Boyd Coddington, Chip Foose, and Fat Jack. Today, Mark and his son Jake bring that exact same show-car eye for detail to every classic restoration and everyday collision repair that rolls into our Anaheim shop."
+    ]
+  },
+  "orderForm": {
+    "enabled": true,
+    "ctaLabel": "Request Estimate",
+    "pageTitle": "Request a Paint, Restoration or Collision Estimate",
+    "pageSubtitle": "Select your service type below. Your request goes directly to Mark@mahoods.com.",
+    "dropdownLabel": "What type of project or repair do you need?"
+  },
+  "reviews": {
+    "rating": "5.0 ★",
+    "countText": "Featured Customer Reviews • Anaheim, CA",
+    "headline": "Trusted by Classic Collectors & Daily Drivers Alike",
+    "items": [
+      {
+        "name": "David Ahlo",
+        "meta": "Local Guide • Google Review",
+        "text": "This place is awesome, another awesome job! Color match perfect, wife is happy, we all happy. They build some sick looking classic cars too."
+      },
+      {
+        "name": "Jim Irvine",
+        "meta": "Verified Customer • Google Review",
+        "text": "It only had 56,000 miles on my car and insurance wanted to total the car. Mahood's saved me from the insurance company and new car payments. Bring your car to Mahood's before calling the insurance company!"
+      },
+      {
+        "name": "Christina Esa",
+        "meta": "Verified Customer • Google Review",
+        "text": "This shop is the best! I just got my car fixed and it looks BRAND NEW! Mark is the best — I really appreciate all the hard work he and his guys put into my car. I recommend everyone to go to this bodyshop!"
+      },
+      {
+        "name": "Saul Magallon",
+        "meta": "Local Guide • Google Review",
+        "text": "Had the front end of my Chevy repaired and painted. I just like everything perfect. I was well pleased — $8,000 in repairs and it came out great."
+      }
+    ]
+  },
+  "galleryTitle": "Inside Our Anaheim Paint Booths & Build Bays",
+  "gallery": [
+    { "image": "images/black-camaro.jpg", "caption": "Custom Gloss Black Pro-Touring Camaro", "category": "hot-rods" },
+    { "image": "images/blue-55-chevy.jpg", "caption": "Restored 1955 Chevy Bel Air Convertible Outside 1270 N. Lance Ln.", "category": "hot-rods" },
+    { "image": "images/red-corvette.jpg", "caption": "Show-Painted 1956 Black Chevy Wagon in Shop", "category": "hot-rods" },
+    { "image": "images/red-camaro-convertible.jpg", "caption": "Classic Red Camaro SS Convertible Restoration", "category": "hot-rods" },
+    { "image": "images/mopar-charger-booth.jpg", "caption": "Classic Mopar Dodge Charger Freshly Painted in Booth", "category": "paint-booth" },
+    { "image": "images/porsche-finished.jpg", "caption": "Classic Porsche 914 Bare-Shell Custom Paint", "category": "porsche" },
+    { "image": "images/porsche-orange-booth.jpg", "caption": "Classic Porsche Signal Orange Booth Finish", "category": "porsche" },
+    { "image": "images/porsche-prep-before.jpg", "caption": "Vintage Porsche 911 Paint Prep in Anaheim Shop", "category": "porsche" },
+    { "image": "images/sign-banner.jpg", "caption": "Mahood's Hot Rods & Collision Facility — 1270 N. Lance Ln., Anaheim", "category": "shop" }
+  ],
+  "contactTitle": "Visit Our Anaheim Shop or Request an Estimate",
+  "contactSubtitle": "Walk-in estimates welcome Monday–Friday (8 AM – 5 PM) and Saturday (8 AM – 2 PM), or send us your project details online."
+}
